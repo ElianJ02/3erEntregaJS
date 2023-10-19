@@ -3,16 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
-    <script src="scripts/redirigir.js"></script>
     <title>Banco del Norte</title>
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
+    <header>
+    <img class="tema" src="" id="modo-imagen" onclick="toggleTheme()">
     <h1>Banco del Norte</h1>
-    <div class="container">
-        <div class="box" img src="./" onclick="redirigirPagina('simulador.html')">Simulador</div>
-        <div class="box" onclick="redirigirPagina('ayuda.html')">Ayuda</div>
-        <div class="box" onclick="redirigirPagina('contacto.html')">Contactanos</div>
-    </div>
+</header>
+<main>
+  <div class="container">
+    <a href="simulador.html" class="box">Simulador</a>
+    <a href="ayuda.html" class="box">Ayuda</a>
+    <a href="contacto.html" class="box">Contacto</a>
+</main>
+  <script src="./js/script.js"></script>
 </body>
 </html>
