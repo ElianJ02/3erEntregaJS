@@ -11,9 +11,9 @@ function toggleTheme() {
   // Cambiar la imagen en función del modo
   var image = document.getElementById("modo-imagen");
   if (isDarkMode) {
-    image.src = "./resources/moon.png"; // Ruta de la imagen para el modo oscuro
+    image.src = "./moon.png" // Ruta de la imagen para el modo oscuro
   } else {
-    image.src = "./resources/sun.png"; // Ruta de la imagen para el modo claro
+    image.src = "./sun.png" // Ruta de la imagen para el modo claro
   }
 }
 
@@ -30,9 +30,9 @@ document.addEventListener("DOMContentLoaded", function() {
   // Cambiar la imagen en función del modo
   var image = document.getElementById("modo-imagen");
   if (theme === "dark") {
-    image.src = "./resources/sun.png";// Ruta de la imagen para el modo oscuro
+    image.src = "./sun.png";// Ruta de la imagen para el modo oscuro
   } else {
-    image.src = "./resources/moon.png"; // Ruta de la imagen para el modo claro
+    image.src = "./moon.png"; // Ruta de la imagen para el modo claro
   }
 });
 
