@@ -15,12 +15,6 @@ body {
     height: 50px;
     margin-left: 0%;
   }
-  .logo {
-    width: 70px;
-    height: 70px;
-    margin-left: 92%;
-    position: fixed;
-  }
 
 /*fin de cuerpo de simulador*/
  h1 {
@@ -39,7 +33,7 @@ textarea {
 }
 
 .button2 {
-    background-color: #5d9c68;
+    background-color: #007bff;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -48,7 +42,7 @@ textarea {
 }
 
 button:hover {
-    background-color: #354d38;
+    background-color: #0056b3;
 }
 .formulario2 {
   margin-left: 30%;
